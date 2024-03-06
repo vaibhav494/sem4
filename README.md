@@ -1,2 +1,2 @@
 # sem4
-all code belong to https://github.com/gauravmehraa
+all code belongs to https://github.com/gauravmehraa
