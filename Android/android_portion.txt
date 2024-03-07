@@ -1,0 +1,13 @@
+1) Difference between activity ad fragmenent (disadvantages of activities over fragmenent, life cycle method of fragments with example)
+2) What is statless and stateful widgets. Explain what is state with an example. Explain its difference.
+3) UI code consists of 4 marks logic 3 marks (Q1 to Q3). Mention stateless or stateful then UI ad logical function
+4) unit-1 :- Layouts refer ptts (Grid,linear)
+5) Difference between recycler view and listview
+6) Async task VS sync task. How you will handle Async in flutter, promises
+7) Basic of navigation drawer, why they are used?
+8) Routes (Q2)
+9) Passing states from one activity to another.
+10) providers, setstate()
+11) shared preferences.(It stores data in local database, use it as an object, less number of data is stores, Faster than local database)
+12) Firebase storage, FCM(steps to send data), 
+13) ways to publish your application on playstore
