@@ -13,11 +13,11 @@ namespace oop
 
         public Student()
         {
-            name = "Gaurav";
-            rollno = 42;
-            marks1 = 98;
-            marks2 = 97;
-            marks3 = 99;
+            name = "woooooo";
+            rollno = 120;
+            marks1 = 77;
+            marks2 = 87;
+            marks3 = 59;
         }
 
         public Student(string name, int rollno, int marks1, int
