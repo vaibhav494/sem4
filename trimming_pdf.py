@@ -1,11 +1,13 @@
 from PyPDF2 import PdfWriter, PdfReader
-pages_to_keep = [5, 6] # page numbering starts from 0
-infile = PdfReader('SYBSC Sem IV Regular Mar 2023.pdf', 'rb')
+# page numbering starts from 0
+start=51  #start
+end=71 #end SHOULD BE ACTUAL PAGE NUMBER
+infile = PdfReader('SEM 4 ANSWERS.pdf', 'rb')
 output = PdfWriter()
 
-for i in pages_to_keep:
+for i in range(start, end):
     p = infile.pages[i] 
     output.add_page(p)
 
-with open('Adv_Java_22-23.pdf', 'wb') as f:
+with open('Android_Dev_22-23_answer.pdf', 'wb') as f:
     output.write(f)
