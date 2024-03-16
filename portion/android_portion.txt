@@ -1,4 +1,4 @@
-1) Difference between activity ad fragmenent (disadvantages of activities over fragmenent, life cycle method of fragments with example)
+1) Difference between activity and fragmenent (disadvantages of activities over fragmenent, life cycle method of fragments with example)
 2) What is statless and stateful widgets. Explain what is state with an example. Explain its difference.
 3) UI code consists of 4 marks logic 3 marks (Q1 to Q3). Mention stateless or stateful then UI ad logical function
 4) unit-1 :- Layouts refer ptts (Grid,linear)
