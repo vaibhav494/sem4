@@ -4,12 +4,16 @@ def tournament(l):
     new_list=[]
     while (len(l)>1):
         try:
-            if l[i]>l[i+1]:
-                dic[l[i]].append(l[i+1])
-                new_list.append(l[i])
+            if l[i] > l[i + 1]:
+                winner = l[i]
+                loser = l[i + 1]
             else:
-                dic[l[i+1]].append(l[i])
-                new_list.append(l[i+1])
+                winner = l[i + 1]
+                loser = l[i]
+            if winner not in dic:
+                dic[winner] = []
+            dic[winner].append(loser)
+            new_list.append(winner)
         except IndexError:
             new_list.append(l[i])
         i+=2
